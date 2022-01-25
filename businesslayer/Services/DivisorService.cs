@@ -1,5 +1,7 @@
+using businesslayer.Interfaces;
+
 namespace businesslayer;
-public class DivisorService
+public class DivisorService: IDivisorService
 {
 
     public ResultDTO GetDivisors(Int64 input)
